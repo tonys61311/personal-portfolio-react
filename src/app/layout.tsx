@@ -1,8 +1,9 @@
-// src/app/layout.tsx
 import React from 'react';
 import './globals.css';
 import '@/styles/main.scss';
 import Script from 'next/script';
+import '@fortawesome/fontawesome-svg-core/styles.css';  // 引入 FontAwesome 样式文件
+import '@/icons';
 
 export default function RootLayout({
   children,
